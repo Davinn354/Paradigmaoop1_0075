@@ -8,6 +8,15 @@ private:
     float nilai;
 
 public:
-    
+    mahasiswa(int pId, string pNama, float pNilai) : id(pId), nama(pNama), nilai(pNilai)
+    { // member Initiazation
+        // Definisi
+    }
+
+    ~mahasiswa(){
+        cout << "Id    = " << id << endl;
+        cout << "Nama  = " << nama << endl;
+        cout << "Nilai = " << nilai << endl;
+    }
 
 };
