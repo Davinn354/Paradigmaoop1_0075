@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-using namesoace std;
+using namespace std;
 
 #include "anak.h"
 #include "ibu.h"
